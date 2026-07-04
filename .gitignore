@@ -37,3 +37,6 @@ results/rq1_pilot/
 results/rq2_pilot/
 results/rq3_pilot/
 data/subqubos_rq3_pilot/
+
+# Pilot documentation not included in final reproducibility package
+docs/*pilot*
