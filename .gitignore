@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+*.env
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
+# Temporary files
+tmp/
+temp/
+
+# Pilot/archive outputs not needed for final paper reproducibility
+results/rq1_pilot/
+results/rq2_pilot/
+results/rq3_pilot/
+data/subqubos_rq3_pilot/

@@ -1,0 +1,110 @@
+{
+  "name": "assignment_items12_bins2_seed303_sub_random_nodes_k8",
+  "family": "assignment",
+  "n_variables": 8,
+  "linear": {
+    "0": -5.0,
+    "1": -7.0,
+    "2": -5.0,
+    "3": -1.0,
+    "4": -8.0,
+    "5": -3.0,
+    "6": -6.0,
+    "7": -7.0
+  },
+  "quadratic": {
+    "0,1": 20.0,
+    "2,3": 20.0
+  },
+  "constant": 120.0,
+  "metadata": {
+    "n_items": 12,
+    "n_bins": 2,
+    "seed": 303,
+    "penalty": 10.0,
+    "cost_low": 1,
+    "cost_high": 10,
+    "cost_matrix": [
+      [
+        5,
+        3
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    "subqubo_selected_original_variables": [
+      0,
+      1,
+      4,
+      5,
+      11,
+      12,
+      19,
+      23
+    ],
+    "subqubo_old_to_new": {
+      "0": 0,
+      "1": 1,
+      "4": 2,
+      "5": 3,
+      "11": 4,
+      "12": 5,
+      "19": 6,
+      "23": 7
+    },
+    "subqubo_new_to_old": {
+      "0": 0,
+      "1": 1,
+      "2": 4,
+      "3": 5,
+      "4": 11,
+      "5": 12,
+      "6": 19,
+      "7": 23
+    },
+    "subqubo_original_n_variables": 24,
+    "subqubo_original_name": "assignment_items12_bins2_seed303"
+  }
+}

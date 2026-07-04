@@ -1,0 +1,9 @@
+extraction_strategy,n_rows,n_pareto,profile,within_strategy_pareto_rate,share_of_all_pareto_points
+high_degree_nodes,9,3,pareto_circuit_profile,0.3333333333333333,0.21428571428571427
+random_nodes,9,3,pareto_circuit_profile,0.3333333333333333,0.21428571428571427
+top_weight_edges,9,4,pareto_circuit_profile,0.4444444444444444,0.2857142857142857
+weighted_degree_nodes,9,4,pareto_circuit_profile,0.4444444444444444,0.2857142857142857
+high_degree_nodes,9,3,pareto_full_profile,0.3333333333333333,0.15789473684210525
+random_nodes,9,5,pareto_full_profile,0.5555555555555556,0.2631578947368421
+top_weight_edges,9,5,pareto_full_profile,0.5555555555555556,0.2631578947368421
+weighted_degree_nodes,9,6,pareto_full_profile,0.6666666666666666,0.3157894736842105

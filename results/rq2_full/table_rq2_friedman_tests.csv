@@ -1,0 +1,4 @@
+metric,n_blocks,n_strategies,friedman_chi2,friedman_p,best_mean_rank_strategy,best_mean_rank
+transpiled_depth,180,8,421.56667367388474,5.6380818491220475e-87,standard_qiskit,2.0277777777777777
+transpiled_2q_count,180,8,583.8484042553196,7.315622947794104e-122,standard_qiskit,1.4388888888888889
+swap_count,180,8,583.8484042553196,7.315622947794104e-122,standard_qiskit,1.4388888888888889

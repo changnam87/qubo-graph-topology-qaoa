@@ -1,0 +1,28 @@
+scope,relationship,x,y,n,spearman_rho,p_value
+all_observations,QUBO interaction edges vs pre-transpilation depth,n_edges,pre_transpile_depth,240,0.9370952321977972,9.025487835885236e-111
+all_observations,QUBO interaction edges vs transpiled depth,n_edges,transpiled_depth,240,0.9312346405693015,2.5422955992178365e-106
+all_observations,QUBO interaction edges vs transpiled two-qubit count,n_edges,transpiled_2q_count,240,0.9913230995534514,9.554403182179387e-212
+all_observations,QUBO graph density vs transpiled depth,density,transpiled_depth,240,0.7187702455538584,1.9237140649840054e-39
+all_observations,Average degree vs transpiled depth,avg_degree,transpiled_depth,240,0.966863626370669,4.009887218616018e-143
+all_observations,Maximum degree vs transpiled depth,max_degree,transpiled_depth,240,0.9741923947592702,7.477874484759049e-156
+all_observations,Weighted degree vs transpiled depth,weighted_degree_mean,transpiled_depth,240,0.9512538414370608,1.40266818182994e-123
+all_observations,Topology-alignment ratio vs transpiled depth,topology_alignment_ratio,transpiled_depth,240,-0.7412437538397717,4.345722861446694e-43
+all_observations,Topology-alignment ratio vs SWAP count,topology_alignment_ratio,swap_count,240,-0.9519514116327632,2.6314807401529584e-124
+all_observations,Weighted mean topology distance vs transpiled depth,weighted_mean_topology_distance,transpiled_depth,240,0.733330578092346,9.205626432821626e-42
+all_observations,Weighted mean topology distance vs SWAP count,weighted_mean_topology_distance,swap_count,240,0.9608500302883423,1.1649594106664318e-134
+all_observations,Weighted mean topology distance vs transpiled two-qubit count,weighted_mean_topology_distance,transpiled_2q_count,240,0.6569257608586719,5.030081021492239e-31
+family=assignment,QUBO interaction edges vs transpiled depth,n_edges,transpiled_depth,60,,
+family=assignment,Topology-alignment ratio vs SWAP count,topology_alignment_ratio,swap_count,60,,
+family=assignment,Weighted mean topology distance vs transpiled depth,weighted_mean_topology_distance,transpiled_depth,60,,
+family=assignment,Weighted mean topology distance vs SWAP count,weighted_mean_topology_distance,swap_count,60,,
+family=maxcut,QUBO interaction edges vs transpiled depth,n_edges,transpiled_depth,120,0.9413431688832564,1.6584436914029037e-57
+family=maxcut,Topology-alignment ratio vs SWAP count,topology_alignment_ratio,swap_count,120,-0.9379588459950335,4.110007132781668e-56
+family=maxcut,Weighted mean topology distance vs transpiled depth,weighted_mean_topology_distance,transpiled_depth,120,0.6160344376137533,6.943406929228299e-14
+family=maxcut,Weighted mean topology distance vs SWAP count,weighted_mean_topology_distance,swap_count,120,0.9385596233931658,2.3560146093554546e-56
+family=scheduling_toy,QUBO interaction edges vs transpiled depth,n_edges,transpiled_depth,60,0.9355891047837216,6.662642877714492e-28
+family=scheduling_toy,Topology-alignment ratio vs SWAP count,topology_alignment_ratio,swap_count,60,-0.9320950127444422,2.9361746680183664e-27
+family=scheduling_toy,Weighted mean topology distance vs transpiled depth,weighted_mean_topology_distance,transpiled_depth,60,0.6801670484457634,2.2682215189628412e-09
+family=scheduling_toy,Weighted mean topology distance vs SWAP count,weighted_mean_topology_distance,swap_count,60,0.9521499281427831,1.514897536062721e-31
+sparse_topologies_only,Topology-alignment ratio vs SWAP count,topology_alignment_ratio,swap_count,180,-0.9195496834649696,4.0627355134175195e-74
+sparse_topologies_only,Weighted mean topology distance vs transpiled depth,weighted_mean_topology_distance,transpiled_depth,180,0.9029149946876399,3.5058703837303213e-67
+sparse_topologies_only,Weighted mean topology distance vs SWAP count,weighted_mean_topology_distance,swap_count,180,0.9417837218371118,3.4729060105929455e-86

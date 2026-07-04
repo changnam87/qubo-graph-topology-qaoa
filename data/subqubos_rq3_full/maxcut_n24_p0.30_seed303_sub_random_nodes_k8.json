@@ -1,0 +1,64 @@
+{
+  "name": "maxcut_n24_p0.30_seed303_sub_random_nodes_k8",
+  "family": "maxcut",
+  "n_variables": 8,
+  "linear": {
+    "0": -81.0,
+    "1": -32.0,
+    "2": -43.0,
+    "3": -35.0,
+    "4": -31.0,
+    "5": -41.0,
+    "6": -46.0,
+    "7": -38.0
+  },
+  "quadratic": {
+    "0,1": 18.0,
+    "0,3": 14.0,
+    "0,7": 14.0,
+    "1,6": 2.0,
+    "2,4": 14.0,
+    "2,6": 18.0,
+    "3,5": 12.0,
+    "5,6": 20.0
+  },
+  "constant": 0.0,
+  "metadata": {
+    "edge_probability": 0.3,
+    "seed": 303,
+    "weight_low": 1,
+    "weight_high": 10,
+    "subqubo_selected_original_variables": [
+      0,
+      1,
+      4,
+      5,
+      11,
+      12,
+      19,
+      23
+    ],
+    "subqubo_old_to_new": {
+      "0": 0,
+      "1": 1,
+      "4": 2,
+      "5": 3,
+      "11": 4,
+      "12": 5,
+      "19": 6,
+      "23": 7
+    },
+    "subqubo_new_to_old": {
+      "0": 0,
+      "1": 1,
+      "2": 4,
+      "3": 5,
+      "4": 11,
+      "5": 12,
+      "6": 19,
+      "7": 23
+    },
+    "subqubo_original_n_variables": 24,
+    "subqubo_original_name": "maxcut_n24_p0.30_seed303"
+  }
+}

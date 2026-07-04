@@ -1,0 +1,28 @@
+scope,relationship,x,y,n,spearman_rho,p_value
+all_families,weighted-edge preservation vs depth reduction,mean_weighted_edge_preservation,mean_pct_depth_reduction_vs_original,36,-0.6594660609148689,1.2175324516791155e-05
+all_families,weighted-edge preservation vs two-qubit reduction,mean_weighted_edge_preservation,mean_pct_twoq_reduction_vs_original,36,-0.9577047066408767,5.719528151672096e-20
+all_families,weighted-edge preservation vs SWAP reduction,mean_weighted_edge_preservation,mean_pct_swap_reduction_vs_original,24,-0.9468872442316065,2.5548671225874865e-12
+all_families,weighted-edge preservation vs normalized lifted-solution gap,mean_weighted_edge_preservation,mean_normalized_energy_gap_vs_reference,36,-0.07362991618310766,0.6695479914642466
+all_families,sub-QUBO size k vs weighted-edge preservation,k_variables,mean_weighted_edge_preservation,36,0.7605126823937046,7.364778052739364e-08
+all_families,sub-QUBO size k vs depth reduction,k_variables,mean_pct_depth_reduction_vs_original,36,-0.3938325041806424,0.017475682008679272
+all_families,sub-QUBO size k vs two-qubit reduction,k_variables,mean_pct_twoq_reduction_vs_original,36,-0.7474003947662268,1.6307858461655806e-07
+all_families,sub-QUBO size k vs SWAP reduction,k_variables,mean_pct_swap_reduction_vs_original,24,-0.9147368903574172,4.005017913074632e-10
+all_families,sub-QUBO size k vs normalized lifted-solution gap,k_variables,mean_normalized_energy_gap_vs_reference,36,-0.5343257208197147,0.0007885839497935258
+family=assignment,weighted-edge preservation vs two-qubit reduction,mean_weighted_edge_preservation,mean_pct_twoq_reduction_vs_original,12,-1.0,0.0
+family=assignment,weighted-edge preservation vs SWAP reduction,mean_weighted_edge_preservation,mean_pct_swap_reduction_vs_original,0,,
+family=assignment,weighted-edge preservation vs normalized lifted-solution gap,mean_weighted_edge_preservation,mean_normalized_energy_gap_vs_reference,12,-0.35766423357664234,0.2536822304991708
+family=assignment,sub-QUBO size k vs weighted-edge preservation,k_variables,mean_weighted_edge_preservation,12,0.7551526166627212,0.004516164109510276
+family=assignment,sub-QUBO size k vs two-qubit reduction,k_variables,mean_pct_twoq_reduction_vs_original,12,-0.7551526166627212,0.004516164109510276
+family=assignment,sub-QUBO size k vs SWAP reduction,k_variables,mean_pct_swap_reduction_vs_original,0,,
+family=maxcut,weighted-edge preservation vs two-qubit reduction,mean_weighted_edge_preservation,mean_pct_twoq_reduction_vs_original,12,-0.965034965034965,3.880985299627467e-07
+family=maxcut,weighted-edge preservation vs SWAP reduction,mean_weighted_edge_preservation,mean_pct_swap_reduction_vs_original,12,-0.965034965034965,3.880985299627467e-07
+family=maxcut,weighted-edge preservation vs normalized lifted-solution gap,mean_weighted_edge_preservation,mean_normalized_energy_gap_vs_reference,12,-0.965034965034965,3.880985299627467e-07
+family=maxcut,sub-QUBO size k vs weighted-edge preservation,k_variables,mean_weighted_edge_preservation,12,0.9460998335825321,3.271760436343093e-06
+family=maxcut,sub-QUBO size k vs two-qubit reduction,k_variables,mean_pct_twoq_reduction_vs_original,12,-0.9460998335825321,3.271760436343093e-06
+family=maxcut,sub-QUBO size k vs SWAP reduction,k_variables,mean_pct_swap_reduction_vs_original,12,-0.9460998335825321,3.271760436343093e-06
+family=scheduling_toy,weighted-edge preservation vs two-qubit reduction,mean_weighted_edge_preservation,mean_pct_twoq_reduction_vs_original,12,-0.9363957597173144,7.363375601391515e-06
+family=scheduling_toy,weighted-edge preservation vs SWAP reduction,mean_weighted_edge_preservation,mean_pct_swap_reduction_vs_original,12,-0.9293286219081273,1.232012896493171e-05
+family=scheduling_toy,weighted-edge preservation vs normalized lifted-solution gap,mean_weighted_edge_preservation,mean_normalized_energy_gap_vs_reference,12,-0.5053003533568905,0.0937855886471855
+family=scheduling_toy,sub-QUBO size k vs weighted-edge preservation,k_variables,mean_weighted_edge_preservation,12,0.8322136175888697,0.0007844348055947033
+family=scheduling_toy,sub-QUBO size k vs two-qubit reduction,k_variables,mean_pct_twoq_reduction_vs_original,12,-0.9511012772444225,2.0277332167192177e-06
+family=scheduling_toy,sub-QUBO size k vs SWAP reduction,k_variables,mean_pct_swap_reduction_vs_original,12,-0.8322136175888697,0.0007844348055947033

@@ -1,0 +1,69 @@
+{
+  "name": "maxcut_n24_p0.30_seed202_sub_weighted_degree_nodes_k8",
+  "family": "maxcut",
+  "n_variables": 8,
+  "linear": {
+    "0": -51.0,
+    "1": -39.0,
+    "2": -47.0,
+    "3": -48.0,
+    "4": -39.0,
+    "5": -39.0,
+    "6": -41.0,
+    "7": -71.0
+  },
+  "quadratic": {
+    "0,2": 12.0,
+    "0,3": 4.0,
+    "0,6": 2.0,
+    "0,7": 20.0,
+    "1,2": 18.0,
+    "1,6": 14.0,
+    "2,3": 14.0,
+    "2,4": 18.0,
+    "2,7": 20.0,
+    "3,5": 16.0,
+    "3,6": 14.0,
+    "4,5": 16.0,
+    "4,6": 20.0
+  },
+  "constant": 0.0,
+  "metadata": {
+    "edge_probability": 0.3,
+    "seed": 202,
+    "weight_low": 1,
+    "weight_high": 10,
+    "subqubo_selected_original_variables": [
+      1,
+      6,
+      8,
+      9,
+      10,
+      20,
+      22,
+      23
+    ],
+    "subqubo_old_to_new": {
+      "1": 0,
+      "6": 1,
+      "8": 2,
+      "9": 3,
+      "10": 4,
+      "20": 5,
+      "22": 6,
+      "23": 7
+    },
+    "subqubo_new_to_old": {
+      "0": 1,
+      "1": 6,
+      "2": 8,
+      "3": 9,
+      "4": 10,
+      "5": 20,
+      "6": 22,
+      "7": 23
+    },
+    "subqubo_original_n_variables": 24,
+    "subqubo_original_name": "maxcut_n24_p0.30_seed202"
+  }
+}

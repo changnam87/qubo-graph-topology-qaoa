@@ -1,0 +1,64 @@
+{
+  "name": "maxcut_n32_p0.30_seed202_sub_top_weight_edges_k8",
+  "family": "maxcut",
+  "n_variables": 8,
+  "linear": {
+    "0": -43.0,
+    "1": -66.0,
+    "2": -43.0,
+    "3": -56.0,
+    "4": -56.0,
+    "5": -39.0,
+    "6": -66.0,
+    "7": -31.0
+  },
+  "quadratic": {
+    "0,5": 20.0,
+    "0,7": 20.0,
+    "1,3": 20.0,
+    "1,4": 20.0,
+    "1,6": 20.0,
+    "2,4": 10.0,
+    "2,6": 20.0,
+    "3,7": 12.0
+  },
+  "constant": 0.0,
+  "metadata": {
+    "edge_probability": 0.3,
+    "seed": 202,
+    "weight_low": 1,
+    "weight_high": 10,
+    "subqubo_selected_original_variables": [
+      0,
+      1,
+      4,
+      5,
+      7,
+      9,
+      15,
+      16
+    ],
+    "subqubo_old_to_new": {
+      "0": 0,
+      "1": 1,
+      "4": 2,
+      "5": 3,
+      "7": 4,
+      "9": 5,
+      "15": 6,
+      "16": 7
+    },
+    "subqubo_new_to_old": {
+      "0": 0,
+      "1": 1,
+      "2": 4,
+      "3": 5,
+      "4": 7,
+      "5": 9,
+      "6": 15,
+      "7": 16
+    },
+    "subqubo_original_n_variables": 32,
+    "subqubo_original_name": "maxcut_n32_p0.30_seed202"
+  }
+}
